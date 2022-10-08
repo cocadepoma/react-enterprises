@@ -1,0 +1,24 @@
+/**
+ * TABLE OF CONTENTS
+ * 
+ * FOUNDATIONS
+ * BASE ...................These are the main brand colors. They will be used the most
+ * 
+ */
+
+/*=============================================
+ =                Foundations                 =
+ =============================================*/
+
+@import "./foundation/all";
+
+/*=============================================
+=                 Base                       =
+=============================================*/
+
+@import "./base/reset";
+@import "./base/root";
+
+.body {
+    color: red;
+}

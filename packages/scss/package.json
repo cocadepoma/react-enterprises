@@ -1,0 +1,32 @@
+{
+    "name": "@ds.e/styles",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "soyl3y3nd4",
+    "license": "MIT",
+    "scripts": {
+        "lint": "stylelint './**/*.scss'",
+        "lint:fix": "yarn lint --fix",
+        "build": "node src/scripts/build.js",
+        "dev": "nodemon --watch src --exec yarn build -e scss"
+    },
+    "dependencies": {
+        "normalize.scss": "^0.1.0"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "devDependencies": {
+        "husky": "^8.0.1",
+        "lint-staged": "^13.0.3",
+        "node-sass": "^7.0.3",
+        "nodemon": "^2.0.20",
+        "prettier": "^2.7.1",
+        "stylelint": "^14.12.1",
+        "stylelint-config-prettier": "^9.0.3",
+        "stylelint-config-sass-guidelines": "^9.0.1",
+        "stylelint-prettier": "^2.0.0"
+    }
+}

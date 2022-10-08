@@ -1,0 +1,22 @@
+{
+    "name": "@playgrounds/react",
+    "version": "1.0.0",
+    "main": "lib/index.js",
+    "author": "soyl3y3nd4",
+    "license": "MIT",
+    "scripts": {
+        "dev": "parcel src/index.html -p 3000"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.21",
+        "@types/react-dom": "^18.0.6",
+        "parcel-bundler": "^1.12.5",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "typescript": "^4.8.4"
+    },
+    "dependencies": {
+        "@ds.e/react": "^0.1.3",
+        "@ds.e/styles": "^1.0.0"
+    }
+}
